@@ -5,7 +5,7 @@
     android:id="@+id/activity_nano__first_app__activiy"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/WhiteSmoke"
+    android:background="@color/Lightergrey"
     tools:context="com.example.hamza.nanodegreefirstapp.Nano_First_app_Activiy">
 
     <ImageView
