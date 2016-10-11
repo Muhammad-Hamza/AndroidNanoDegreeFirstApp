@@ -25,43 +25,87 @@
         android:layout_marginLeft="15dp"
         android:textColor="@color/DarkGray"
         android:id="@+id/Text1"
-        android:textStyle="bold"
 
         />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Text1"
+        android:textSize="15sp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:textSize="15sp"
+        android:text="Email:"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
         android:id="@+id/text2"
-        android:text="@string/description"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text2"
+        android:textSize="15sp"
+        android:layout_below="@+id/Text1"
+        android:text="Muhammad00hamza@gmail.com"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/text3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Location:"
+        android:layout_below="@+id/text3"
+        android:textStyle="bold"
+        android:id="@+id/text4"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DHA Khayaban-e-shamsheer Street # 3"
+        android:layout_below="@+id/text3"
+        android:layout_toRightOf="@+id/text4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No"
+        android:layout_below="@+id/text5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text6"
 
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/text2"
-        android:textSize="15sp"
-        android:layout_marginLeft="20dp"
+        android:text="03112724978"
+        android:layout_below="@+id/text5"
+        android:layout_toRightOf="@+id/text6"
         android:layout_marginTop="10dp"
-        android:text="Email:"
-        android:textColor="@color/DarkGray"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold"
-        android:id="@+id/text3"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/text7"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/text3"
-        android:textSize="15sp"
-        android:layout_below="@+id/text2"
-        android:text="Muhammad00hamza@gmail.com"
+        android:layout_below="@+id/text7"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:id="@+id/text8"
+        android:text="@string/description"
+
         />
 
 
